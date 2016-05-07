@@ -1,15 +1,15 @@
 ---
+id: 2
 layout: page
 title: About
+date: 2009-12-20T07:29:05+00:00
+author: admin
+guid: http://alperyilmaz.org/blog/?page_id=2
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+I am an Assist. Prof. in bioinformatics field who is fascinated with power of linux shell. In this blog I'm sharing information, tricks and tips related to bioinformatics, perl scripting and linux shell as I come across and learn.. Thanks for watching ..
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+You can find the source code for this website at:
+{% include icon-github.html username="alperyilmaz" %} /
+[alperyilmaz.github.io](https://github.com/alperyilmaz/alperyilmaz.github.io)
