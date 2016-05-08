@@ -20,4 +20,5 @@ github_username:  alperyilmaz
 markdown: kramdown
 
 # Do not copy these files to the output directory
-exclude: ["deploy"]
+exclude: ["deploy","README.md"]
+
