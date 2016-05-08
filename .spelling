@@ -3,3 +3,32 @@
 # global dictionary is at the start, file overrides afterwards
 # one word per line, to define a file override use ' - filename'
 # where filename is relative to this configuration file
+commandline
+samtools
+perl
+bedtools
+softwares
+gnuplot
+png
+fasta
+ssh
+scp
+plugin
+fastaFromBed
+flankBed
+subtractBed
+slopBed
+basepairs
+basepair
+bp
+SeqIO
+completion
+Wordpress
+InterPro
+BiologicalProcess
+alperyilmaz.github.io
+alperyilmaz.org
+AWS
+S3
+linux
+Linux

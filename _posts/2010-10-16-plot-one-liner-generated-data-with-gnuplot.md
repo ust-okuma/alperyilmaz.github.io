@@ -34,7 +34,7 @@ Resulting image looks like this:
 
 ![](/images/history-top-occur-graph550x350.png)
 
-If you want to save the output in png format, what you do is simply add the command `set term png size 600,300` to your one-liner. I chose width 600px and heigth 300px as example. In this case, gnuplot prints the contents of png file to screen, so we need to direct it to a filename, as shown below:
+If you want to save the output in png format, what you do is simply add the command `set term png size 600,300` to your one-liner. I chose width 600px and height 300px as example. In this case, gnuplot prints the contents of png file to screen, so we need to direct it to a filename, as shown below:
 
 ```
 $ cat ~/.bash_history|grep -v "^#" | perl -F"\||<\(|;|\`|\\$\(" -alne 'foreach (@F) { print $1 if /^.*?(\w+)\b/i }' | sort | uniq -c | sort -nr | head -20 | awk '{print $2"\t"$1}' | sed -e "1i\set term png size 600,350\nset boxwidth 0.5\nset style fill solid noborder\nset xtics nomirror rotate by -60\nset format x '-%s'\nplot '-' using 2:xticlabels(1) with boxes notitle" | gnuplot > sample_image.png

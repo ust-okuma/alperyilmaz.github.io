@@ -24,4 +24,4 @@ Below is an example from Circos tutorial (I modified the config file to obtain l
 
 Original image is located [here](/images/circos-tutorial-huge.png).
 
-PS: Author of Circos, Martin Krzywinski has more interesting softare listed in [his page](http://mkweb.bcgsc.ca/). And his lecture notes on [Data Mining and Analysis at the Command Line](http://mkweb.bcgsc.ca/perlworkshop/index.mhtml?code=2.1.2.4) is worth checking.
+PS: Author of Circos, Martin Krzywinski has more interesting software listed in [his page](http://mkweb.bcgsc.ca/). And his lecture notes on [Data Mining and Analysis at the Command Line](http://mkweb.bcgsc.ca/perlworkshop/index.mhtml?code=2.1.2.4) is worth checking.

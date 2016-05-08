@@ -55,7 +55,7 @@ Let me try to explain how it works, first I extend each gene 5 basepair to its u
 
 bedtools has a tool named subtractBed and I was thinking that combination of slopBed, subtractBed and fastaFromBed should be the solution. However, probably due to genes that are overlapping, subtracting gene region from extended region didn't work as well as I expected. That's why I integrated a perl one-liner to take care of subtracting the gene region from extended region.
 
-Update : bedtools developer [Aaron Quinlan](http://obx.cphg.virginia.edu/quinlan/) was kind enough to develop a new tool to accomplish the task described above. "flankBed" does exactly what is descibed above and it's much simpler. Here's the flankBed equivalent of extracting upstream regions:
+Update : bedtools developer [Aaron Quinlan](http://obx.cphg.virginia.edu/quinlan/) was kind enough to develop a new tool to accomplish the task described above. "flankBed" does exactly what is described above and it's much simpler. Here's the flankBed equivalent of extracting upstream regions:
 
 ```
 flankBed -i small-chr-genes.bed -g small-chr.genome -l 5 -r 0 -s | fastaFromBed -fi small-chr.fa -bed stdin -fo stdout -name -s
